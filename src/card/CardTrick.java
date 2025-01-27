@@ -36,7 +36,7 @@ public class CardTrick {
         }
 
 
-        LuckyCard lc = new LuckyCard();
+        Card lc = new Card(); // Lucky Card Object
         lc.setValue(5);
         lc.setSuit(Card.SUITS[rnd.nextInt(4)]);
         System.out.println(lc.getValue() + " " + lc.getSuit());

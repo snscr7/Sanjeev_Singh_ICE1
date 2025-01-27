@@ -34,6 +34,12 @@ public class CardTrick {
             //c.setValue(insert call to random number generator here)
             //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
         }
+
+
+        LuckyCard lc = new LuckyCard();
+        lc.setValue(5);
+        lc.setSuit(Card.SUITS[rnd.nextInt(4)]);
+        System.out.println(lc.getValue() + " " + lc.getSuit());
         
         Card s = new Card();
         
